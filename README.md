@@ -6,6 +6,7 @@ For this to work you need to disable a remote and connect the ESP to the HCS361 
 This will definitely void your warranty, do it at your own risk!
 
 Connections:
+
 GPIO(arduino)|nodeMcu|HCS631
 -------------|-------|------
 16|D0|1(S0)
@@ -17,6 +18,7 @@ The ESP will come up in AP mode for configuration with SSID ZB40_Gateway encrypt
 
 Default topic is /ZB40_GATEWAY.
 You can controll it via MQTT with the following topics.
+
 Topic|Payload (only one at a time)
 -----|----------------------------
 /ZB40_GATEWAY/ALL/|up, down, stop
